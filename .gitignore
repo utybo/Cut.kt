@@ -1,0 +1,4 @@
+kt_build
+*.o
+*.a
+*.klib

@@ -1,0 +1,7 @@
+# Properties file, oh boy
+# The headers we want Kotlin/Native to translate into our klib
+headers = src/add.h
+# Where is our static library? This tells us where that is
+staticLibraries = kt_build/test_target.a
+# I don't remember why I put that here, let's just assume that works.
+libraryPaths = .
