@@ -3,7 +3,7 @@ package cutkt
 import kotlinx.cinterop.*
 
 /**
- * Reveiver type for a single test.
+ * Receiver type for a single test.
  */
 class TestingContext(val testsuiteName: String, val testName: String)
 
@@ -13,7 +13,7 @@ class TestingContext(val testsuiteName: String, val testName: String)
 open class TestFailure(message: String) : Exception(message)
 
 /**
- * Reveiver type for an entire testsuite.
+ * Receiver type for an entire testsuite.
  *
  * Has innate memory management. In order to use a CValue, simply invoke it
  * (e.g. my_cvalue()).
