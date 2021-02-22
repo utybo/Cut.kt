@@ -1,5 +1,5 @@
 import test_target.*
-import ctkt.*
+import cutkt.*
 import kotlinx.cinterop.*
 import kotlin.system.*
 
@@ -24,7 +24,7 @@ fun Add() = testsuite("Add") {
     test("Add two positive integers") {
         // The invocation on the result of add is used for
         // getting the value out of the CValue we get
-        // See CTKT.kt
+        // See Cut.kt
         assertEqual(5, add(1, 4)().result)
     }
     test("Add a positive and a negative integer") {

@@ -1,4 +1,4 @@
-# CTKT - C Unit Testing with Kotlin
+# Cut.kt - C Unit Testing with Kotlin
 
 Proof of concept for testing C code using Kotlin/Native.
 
@@ -50,12 +50,12 @@ I wanted an excuse for writing Kotlin code.
 
 * `src`: C source files
 * `tests`: Kotlin test files
-    * `CTKT.kt`: Very simple test framework implementation
+    * `Cut.kt`: Very simple test framework implementation
     * `Testsuite.kt`: Your tests here.
 * `Makefile`: The Makefile
 * `test_target.def`: Information file for KLib generation
 
-All CTKT-related stuff is built into a separate `kt_build` folder. After a `make check`, the folder will contain the following:
+All Cut.kt-related stuff is built into a separate `kt_build` folder. After a `make check`, the folder will contain the following:
 
 * `kotlin-native`: Kotlin/Native binaries used to compile the stuff
 * `test_target.klib-build`: `cinterop` uses that for building the `klib` with your code

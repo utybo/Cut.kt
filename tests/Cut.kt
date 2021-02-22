@@ -1,4 +1,4 @@
-package ctkt
+package cutkt
 
 import kotlinx.cinterop.*
 
